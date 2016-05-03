@@ -1,0 +1,66 @@
+{
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "D:1 GM 25.48 mg", 
+    "commit": "f92f08fb4e0d0e20f2ea45e06c377b5a22c43696", 
+    "conditionals": [], 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "63761", 
+    "increment": 0, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-277", 
+    "irradiation_level": "D", 
+    "irradiation_position": 1, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Felix", 
+    "material": "Groundmass", 
+    "measurement": "felix_analysis600_120.py", 
+    "project": "Horton", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Horton", 
+    "sample": "KTM03", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-05-03T12:58:34.550100", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "b3e532a7-2518-486b-9f04-b91737a47d69"
+}
